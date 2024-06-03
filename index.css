@@ -1,0 +1,510 @@
+body{
+    color: #424242;
+    
+    font-family: "Inter", serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    box-shadow: 2px 1px 2px #eee;
+    width: 100%;
+    padding: 20px;
+    margin-top: -100px;
+    background-color: white;
+    
+    
+    
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    height: 27.2px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+    
+    
+}
+
+.zerodha-logo-img{
+    height: 17px;
+    width: 129.41pxpx;
+    margin-left: 180px;
+    
+}
+
+.navbar-links{
+    display: flex;
+    align-items: center;
+    padding-right: 50PX;
+    margin-right: 180px;
+}
+
+.nav-menu-icon{
+    width: 18px;
+    cursor: pointer;
+}
+
+.navbar-links a{
+    padding: 20px;
+    text-decoration: none;
+    color: #666666;
+    transition: color .5s;
+}
+
+.navbar-links a:hover{
+    color: #387ED1;
+}
+
+.container-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 97px 186.5px 0 186.5px;
+    
+
+}
+
+.landing-page{
+    width: 1037.23px;
+    height: 436.5px;
+    margin-bottom: 60px;
+}
+
+.invest-text{
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.online-platform-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.sign-up-button{
+    margin-top: 25px;
+    background-color: #387ED1;
+    color: white;
+    font-size: 19.2px;
+    padding: 10px 30px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 120px;
+}
+
+.sign-up-button:hover{
+    background-color: #222;
+}
+
+.container-largest-stock{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 120px;
+    width: 1100px;
+    height: 333.74px;
+}
+
+.largest-broker-image{
+    width: 432.66px;
+    height: 276.2px;
+}
+.list-items-container{
+    display: flex;
+    justify-content: left;
+    font-weight: 400;
+}
+
+.largest-stock-text{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.largest-stock-para{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 16px;
+    font-weight: 400;
+    width: 526px;
+    height: 57.6px;
+}
+
+.press-logos{
+    width: 526px;
+    height: 29.74px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.list-items-container li{
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+
+.trust-container{
+    width: 1100px;
+    height: 657px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 120px 20px;
+}
+
+.trust-text h2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.trust-text h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.trust-text p{
+    margin-top: 5px;
+    margin-bottom: 32px;
+    color: #666;
+    font-size: 1rem;
+}
+
+.trust-text span{
+    color: #387ed1;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.trust-text span:hover{
+    color: #444;
+}
+
+.trust-text{
+    width: 432.66;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 656.77;
+    margin-right: 30px;
+}
+
+.trust-img-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trust-img{
+    width: 600px;
+    height: 589.19px;
+}
+.trust-a{
+    margin: 16px 0 15px;
+
+}
+.trust-a a{
+    text-decoration: none;
+    margin: 16px 0 15px;
+    color: #387ED1;
+    cursor: pointer;
+
+}
+
+.trust-a-left{
+    padding-left: 24px;
+    
+}
+.trust-a a:hover{
+    color: #444;
+}
+
+.unbeatable-pricing{
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    height: 190px;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.unbeatable-pricing h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.unbeatable-pricing p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+
+.unbeatable-left{
+    width: 432.66px;
+}
+
+
+.unbeatable-right{
+    width: 528px;
+    height: 190px;
+    display: flex;
+    
+
+}
+
+.pricing-box{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px;
+    border-color: #d2d2d2;
+    border-style: solid;
+    width: 253.44px;
+    height: 190px;
+    justify-content: center;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.pricing-box h1{
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.free-open-container{
+    display: flex;
+    width: 1100px;
+    height: 325.46px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.varsity{
+    width: 432.66px;
+    height: 317.46px;
+    
+}
+
+.free-open-text h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.free-open-text p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+
+.free-open-text a{
+    text-decoration: none;
+    color: #387ED1;
+    font-weight: 500;
+   
+
+
+
+}
+.free-open-text a:hover{
+    color: #444;
+}
+.free-open-text{
+    flex-basis: 48%;
+    width: 48%;
+}
+
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.mini-container h2{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.mini-container p{
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 16px;
+    
+}
+
+
+.mini-container button{
+    margin-top: 20px;
+    background-color: #387ED1;
+    color: white;
+    font-size: 19.2px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.mini-container button:hover{
+    background-color: #222;
+}
+
+footer{
+    background-color: #fbfbfb;
+    padding: 30px 0 5px 0;
+
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer-list-row-col1{
+    display: flex;
+    flex-direction: column;
+}
+.footer-list-row-col1 img,p{
+    margin-bottom: 20px;
+    color: #666666;
+    font-size: 0.8rem;
+}
+
+#p-useless{
+    margin-bottom: 0;
+}
+
+.footer-list-row-col2{
+    margin-left: 80px;
+    
+}
+
+.logo-zero{
+    width: 152.25px;
+}
+
+.facebook-img{
+    width: 242px;
+    cursor: pointer;
+
+}
+
+.footer-list-row li{
+    list-style-type: none;
+}
+
+.ul-list li{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 2;
+}
+
+.ul-list li:hover{
+    color: #387ED1;
+    
+
+}
+
+.nav-head {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+    font-weight: 500 !important;
+    color: #424242 !important ;
+    cursor: auto !important;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.footer-terms p{
+    font-size: 0.65rem;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.footer-terms{
+    color: #969696;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    margin-top: 40px;
+    
+}
+
+.footer-terms span{
+    color:#387ed1;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-terms span:hover{
+     color: #444;
+}
+
+
+
+.footer-terms ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.footer-terms a{
+    font-size: .75rem;
+    color: #969696;
+    line-height: 4;
+    text-decoration: none;
+    margin-right: 25px;
+    transition-duration: 30ms;
+
+}
+
+.footer-terms a:hover{
+    color: #387ed1;
+}
